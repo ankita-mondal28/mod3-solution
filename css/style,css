@@ -1,0 +1,42 @@
+/* Navbar Custom */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  border: none;
+  background-color: #777;
+}
+
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* Mobile dropdown menu */
+#mobile-menu {
+  background-color: #ddd;
+}
+
+#mobile-menu ul li a {
+  font-weight: bold;
+  color: #000 !important;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Page Heading */
+h2 {
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+/* Tall Section */
+.menu-section {
+  background-color: #ccc;
+  padding: 20px;
+  height: 1000px; /* Makes the section tall */
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
