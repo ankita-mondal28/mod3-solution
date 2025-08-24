@@ -34,7 +34,6 @@ h2 {
 
 /* Menu Sections */
 .menu-section {
-  height: 700px; /* Makes each section large */
   padding: 20px;
   margin-bottom: 30px;
   background-color: #f4f4f4;
@@ -44,4 +43,9 @@ h2 {
 
 .menu-section h3 {
   margin-bottom: 20px;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
 }
